@@ -1,0 +1,93 @@
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+input,
+textarea,
+button:focus {
+  outline: none;
+}
+header {
+  background: #f5f5f5;
+  min-height: 850px;
+  height: 100vh;
+}
+.main-head {
+  margin-top: 3%;
+}
+.main-logo-border {
+  border: 3px solid #746f77;
+  width: 155px;
+  height: 55px;
+  line-height: 49px;
+  font-size: 38px;
+  color: #6f6f6f;
+}
+.main-logo-border span {
+  color: #fa9a87;
+}
+.main-logo-border a {
+  color: #746f77;
+  text-decoration: none;
+}
+.main-logo-border a:hover {
+  text-decoration: none;
+  color: #746f77;
+}
+.main-logo-border:hover {
+  background: rgba(111, 111, 111, 0.1);
+}
+.text-center h1 {
+  font-size: 50px;
+  color: #746f77;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.text-center h1 span {
+  color: #fa9a87;
+}
+.text-center > p {
+  font-size: 16px;
+  color: #746f77;
+  margin: 30px 0 10% 0;
+}
+.main-form .form {
+  padding: 35px 60px;
+  background: #fff;
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  border-radius: 2px;
+}
+.main-form .form form input.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 15px;
+}
+.main-form .form form textarea.text-form {
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main-form .form form button.form-btn {
+  border-radius: 40px;
+  border: none;
+  padding: 15px 50px;
+  background: #ff5c36;
+  color: #fff;
+  font-size: 16px;
+}
+.main-form .form form button.form-btn:hover {
+  background: #e9340a;
+}
+.main-form .form h2 {
+  color: #746f77;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.main-form .form h2 span {
+  color: #fa9a87;
+}
