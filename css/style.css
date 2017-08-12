@@ -10,9 +10,10 @@ button:focus {
   outline: none;
 }
 header {
-  background: #f5f5f5;
-  min-height: 850px;
+  background: url(../img/img.jpg) no-repeat center center;
+  min-height: 835px;
   height: 100vh;
+  background-size: cover;
 }
 .main-head {
   margin-top: 3%;
@@ -90,4 +91,50 @@ header {
 }
 .main-form .form h2 span {
   color: #fa9a87;
+}
+#process {
+  margin-bottom: 100px;
+}
+#process .process-box {
+  color: #fff;
+  padding: 35px;
+  position: relative;
+}
+#process .process-box button {
+  width: 80%;
+  background: #ffffff;
+  color: #999999;
+  border: none;
+  border-radius: 27px;
+  box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);
+  padding: 10px 0;
+  position: absolute;
+  right: 50%;
+  margin-right: -40%;
+}
+#process .process-box button .plus {
+  font-size: 25px;
+  margin-right: 10px;
+}
+#process .process-box i {
+  font-size: 50px;
+}
+#process .process-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#process .process-box p {
+  font-size: 15px;
+}
+#process .box-tomi {
+  background: #4eb2f7;
+}
+#process .box-set {
+  background: #c049f8;
+}
+#process .box-koire {
+  background: #817eff;
+}
+#process .box-lara {
+  background: #f74770;
 }
